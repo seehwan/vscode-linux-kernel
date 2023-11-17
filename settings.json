@@ -2,7 +2,7 @@
     "files.exclude": {
         "**/.*.*.cmd": true,
         "**/.*.d": true,
-        "**/.*.S": true
+        "**/.*.o": true
     },
     "[c]": {
         "editor.detectIndentation": false,
@@ -12,5 +12,7 @@
     },
     "files.associations": {
         "*.h": "c"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/usr/local/bin/aarch64-linux-gnu-gcc",
+    "C_Cpp.default.intelliSenseMode": "linux-gcc-arm64",
 }
