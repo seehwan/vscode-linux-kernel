@@ -3,6 +3,11 @@
         {
             "name": "Linux",
             "cStandard": "c11",
+            "includePath": ["${workspaceFolder}/**", "/usr/local/include/**",
+            "/usr/local/Cellar/aarch64-unknown-linux-gnu/11.2.0_1/toolchain/aarch64-unknown-linux-gnu/sysroot/usr/include/**",
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/Cellar/aarch64-unknown-linux-gnu/11.2.0_1/bin/aarch64-linux-gnu-gcc",
             "intelliSenseMode": "linux-gcc-arm64",
             "compileCommands": "${workspaceFolder}/compile_commands.json",
             "includePath": [
