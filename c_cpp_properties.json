@@ -7,11 +7,7 @@
             "compileCommands": "${workspaceFolder}/compile_commands.json",
             "includePath": [
                 "${default}",
-                "${workspaceFolder}/include",
-                "${workspaceFolder}/arch/arm64/include",
-                "${workspaceFolder}-build/arch/arm64/include/generated",
-                "${workspaceFolder}-build/include",
-                "${workspaceFolder}/include/uapi"
+                "${workspaceFolder}/**",
             ],
             "compilerPath": "/usr/local/bin/aarch64-unknown-linux-gnu-gcc",
             "dotConfig": "${workspaceFolder}/.config"
